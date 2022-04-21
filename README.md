@@ -1,2 +1,2 @@
 # Python
-Repository for Python file
+Repository for Python files
