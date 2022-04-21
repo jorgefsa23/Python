@@ -1,6 +1,6 @@
 # Information Security with Python
 
-Repository of .py algoritms developed during the **Information Security with Python course**
+Repository of .py algoritms developed into the **Information Security with Python course**
 
 as part of the bootcamp: **Cognizant Cloud Data Engineer #2** 2022
 
