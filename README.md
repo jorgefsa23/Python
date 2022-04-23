@@ -1,2 +1,2 @@
 # Python
-Repository for Python files
+A repository for some Python projects
