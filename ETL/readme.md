@@ -4,3 +4,5 @@ Extract, transform, load (ETL) as part of the bootcamp: **Cognizant Cloud Data E
 
 Course Instructor: [Fernando Tiosso](https://www.linkedin.com/in/fernando-tiosso-2139542/)
 
+Data source: [CENIPA](https://dados.gov.br/dataset/ocorrencias-aeronauticas-da-aviacao-civil-brasileira) - Ocorrências Aeronáuticas na Aviação Civil Brasileira
+
