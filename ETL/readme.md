@@ -6,3 +6,10 @@ Course Instructor: [Fernando Tiosso](https://www.linkedin.com/in/fernando-tiosso
 
 Data source: [CENIPA](https://dados.gov.br/dataset/ocorrencias-aeronauticas-da-aviacao-civil-brasileira) - Ocorrências Aeronáuticas na Aviação Civil Brasileira
 
+## Environment: 
++ Jupiter Notebook with Python
++ Anaconda navigator
+
+### Packages
++ pandas
++ pandera
