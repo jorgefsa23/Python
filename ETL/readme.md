@@ -4,7 +4,12 @@ Training ETL (Extract, transform, load) as part of the bootcamp: **Cognizant Clo
 
 Course Instructor: [Fernando Tiosso](https://www.linkedin.com/in/fernando-tiosso-2139542/)
 
-Data source: [CENIPA](https://dados.gov.br/dataset/ocorrencias-aeronauticas-da-aviacao-civil-brasileira) - Ocorrências Aeronáuticas na Aviação Civil Brasileira (.csv file)
+Data source: [CENIPA](https://dados.gov.br/dataset/ocorrencias-aeronauticas-da-aviacao-civil-brasileira) - Ocorrências Aeronáuticas na Aviação Civil Brasileira 
+
+Information from: 2012/01 to: 2021/12
+
+File: .csv format
+
 ## Environment:
 + Jupiter Notebook
 
