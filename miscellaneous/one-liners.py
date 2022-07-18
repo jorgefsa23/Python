@@ -3,57 +3,76 @@
 '''List of one-line codes
 
 Strategy to shorter and readable Python code
-Source: https://towardsdatascience.com/9-one-liners-anyone-learning-python-should-know-29fdea7c540c
+Source: Own adaptation based on a List with 56 Python one-liners: https://blog.finxter.com/python-one-liners/
 '''
 
 # 1) IF-ELSE: 
-age = 18
-valid = "You're an adult"
-invalid = "You're NOT an adult"
-print(valid) if age >= 18 else print(invalid)
+score = 12
+winner = "Great! Scored more than 10!"
+looser = "Bad! Scored less than 10"
+print(winner) if score >= 10 else print(looser)
 
-#2) List comprehension (here creating a new list from another)
+#2) ELIF:
+price = 99
+print('no') if price> 100 else print("yes") if price==99 else print("maybe")
+
+#3) Lambda funcion (anonimous fuctions)
+square = lambda x: x**2
+print(square(3))
+
+#4) FOR loop
+for i in range(10): print(i)
+
+#5) FOR loop IF (list comprehension #1)
+pairs_squared = [i**2 for i in range(10) if i%2==0]
+print(pairs_squared)
+
+#6) While
+c = 20
+while c < 30: print(c); c = c + 1
+
+#7) List comprehension (here creating a new list from another)
 #syntax: [expression for item in list]
-words = ['united states', 'brazil', 'united kingdom']
-capitalized = [word.title() for word in words]
-print(capitalized)
+teams = ['liverpool', 'valencia', 'manchester united', 'ac milan']
+teams_cap = [team.title() for team in teams]
+print(teams_cap)
 
-#3) Dictionary Comprehension
+#8) Dictionary Comprehension
 #syntax: {key: value for key, value in iterable}
 dict_numbers = {x:x*x for x in range(1,6) }
 print(dict_numbers)
 
-#4) Join Dictionaries (an adition to: update and merge methods)
+#9) Join Dictionaries (an adition to: update and merge methods)
 #syntax: ** operator in front of the dictionary
-dict_1 = {'a': 1, 'b': 2}
-dict_2 = {'c': 3, 'd': 4}
-merged_dict = {**dict_1, **dict_2}
-print(merged_dict)
+data_1 = {'Name': 'Mark', 'Score': 10}
+data_2 = {'Function': 'Data Scientist', 'Active': True}
+merged_data = {**data_1, **data_2}
+print(merged_data)
 
-#5) Remove duplicates in a list
+#10) Remove duplicates in a list
 #Transform in set() and then in a list()
 numbers = [1,1,1,2,2,3,4,5,6,7,7,8,9,9,9]
 new_numbers = list(set(numbers))
 print(new_numbers)
 
-#6) Multiple variables assignment
+#11) Multiple variables assignment
 a, b, c = 1, "Name", True
 print(a, b, c)
 
-#7) Filtering values in list + lambda fuction
+#12) Filtering values in list (+ lambda fuction)
 #syntax: filter(function, iterable)
 my_list = [10, 11, 12, 13, 14, 15]
-filtered_list = list(filter(lambda x: x%2 == 0, my_list ))
+filtered_list = list(filter(lambda x: x%2 != 0, my_list ))
 print(filtered_list)
 
-#8) Sort dictionary by keys
-product_prices = {'Z': 9.99, 'Y': 9.99, 'X': 9.99}
+#13) Sort dictionary by keys
+product_prices = {'tennis': 22.99, 't-shirt': 19.99, 'hat': 9.99}
 product_sorted = {key:product_prices[key] for key in sorted(product_prices.keys())}
 print(product_sorted)
 
-#9) Sort dictionary by values
+#14) Sort dictionary by values
 #syntax: sorted(iterable, key=, reverse= False [True(max. to min.)])
-population = {'USA':329.5, 'Brazil': 212.6, 'UK': 67.2}
-population_by_values = sorted(population.items(), key=lambda x:x[1], reverse= True)
-print(population_by_values)
+car = {'car_1':205.75, 'car_2': 180.7, 'car_3': 100}
+car_by_values = sorted(car.items(), key=lambda x:x[1], reverse= True)
+print(car_by_values)
 
