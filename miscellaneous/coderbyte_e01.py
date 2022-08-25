@@ -1,4 +1,4 @@
-'''Exercise from coderbyte.org [TAG: level easy]
+'''Exercise from coderbyte.com [TAG: level easy]
 
 take the str parameter being passed and determine if the string is a valid username according to the following rules:
 
