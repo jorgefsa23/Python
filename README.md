@@ -1,4 +1,4 @@
 # Python
 A repository for some Python projects
 
-More scripts on the Respository of **Datascience**
+More scripts into the Respository of **DataScience**
