@@ -1,7 +1,9 @@
 import pyautogui
 import time
 
-searchTerm = input('Input seaching word(s)\n')
+searchTerm = input('Input seaching word(s): ')
+
+#exit()
 Outputformat = int(input('Select  Output option:\n1-information on screen\n2-save as pdf file\n3-save as html file\n'))
 
 pyautogui.alert("Code running. DO NOT use computer untill the END message!\n")
@@ -9,6 +11,8 @@ pyautogui.PAUSE = 1
 
 # Search term
 pyautogui.press('winleft')
+pyautogui.write("edge")
+pyautogui.press('enter')
 pyautogui.write(searchTerm)
 pyautogui.press('enter')
 time.sleep(3)
